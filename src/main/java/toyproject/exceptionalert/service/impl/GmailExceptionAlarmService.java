@@ -34,7 +34,7 @@ public class GmailExceptionAlarmService implements ExceptionAlarmService {
         msgg.append("<div style='margin:100px;'>");
         msgg.append("<h1> [Exception 발생 Alarm] </h1>");
         msgg.append("<br>");
-        msgg.append("<p>아래의 메소드 호출에서 에러가 발생했습니다.<p>");
+        msgg.append("<p>아래의 메소드 호출에서 에러가 발생했습니다. 즉시 조치 바랍니다.<p>");
         msgg.append("<br>");
         msgg.append("<p>"+methodExceptionOccur+"<p>");
         msgg.append("<br>");

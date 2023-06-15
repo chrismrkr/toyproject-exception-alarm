@@ -14,6 +14,6 @@ public class TmpController {
     @GetMapping("/")
     public String main() {
         if(err++ % 5 != 0) { return "ok"; }
-        else throw new IllegalStateException("Exception occurs");
+        else throw new IllegalStateException("Exception occurs in TmpController");
     }
 }
